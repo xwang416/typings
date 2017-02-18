@@ -1,0 +1,156 @@
+{
+    "properties": {
+        "sort": {
+            "type": "lowest to highest",
+            "display": "Price: lowest to highest",
+            "orderby": "msrp",
+            "order": "asc"
+        },
+        "showbasemodelsonly": {
+            "type": false
+        },
+        "year": {
+            "type": [2018, 2017]
+        },
+        "bodystyle": {
+            "type": ["Cargo-van", "Convertible", "Hatchback", "Mini-van"]
+        },
+        "msrp": {
+            "type": "msrp",
+            "min": 0,
+            "max": 105000,
+            "minstart": 0,
+            "maxend": 120000,
+            "output": " $0 - $105,000 ",
+            "minpos": 0,
+            "maxpos": 27,
+            "leftvalue": 0,
+            "rightvalue": 21.12,
+            "overflow": 0,
+            "prefix": ""
+        },
+        "make": {
+            "type": ["Acura"]
+        },
+        "fueltype": {
+            "type": ["Gas", "Diesel"]
+        },
+        "fuelecon": {
+            "type": "hwy",
+            "min": 0,
+            "max": 15,
+            "minstart": 0,
+            "maxend": 20,
+            "output": "Hwy 0 - 15  L/100km",
+            "minpos": 0,
+            "maxpos": 57,
+            "leftvalue": 0,
+            "rightvalue": 14.933333333333334,
+            "overflow": 0,
+            "prefix": "hwy"
+        },
+        "capacity": {
+            "type": "capacity",
+            "min": 0,
+            "max": 7,
+            "minstart": 0,
+            "maxend": 15,
+            "output": " 0 - 7 Passengers",
+            "minpos": 0,
+            "maxpos": 123,
+            "leftvalue": 0,
+            "rightvalue": 6.8,
+            "overflow": 0,
+            "prefix": ""
+        },
+        "drivetrain": {
+            "type": ["FWD", "4WD"]
+        },
+        "towingcapacity": {
+            "type": "towingcapacity",
+            "min": 4000,
+            "max": 10000,
+            "minstart": 0,
+            "maxend": 10000,
+            "output": " 4000 - 10000+ Lbs",
+            "minpos": 83,
+            "maxpos": 0,
+            "leftvalue": 3.6888888888888887,
+            "rightvalue": 10,
+            "overflow": 0,
+            "prefix": ""
+        },
+        "horsepower": {
+            "type": "horsepower",
+            "min": 240,
+            "max": 600,
+            "minstart": 60,
+            "maxend": 600,
+            "output": " 240 - 600+ hp",
+            "minpos": 68,
+            "maxpos": 0,
+            "leftvalue": 9.066666666666666,
+            "rightvalue": 30,
+            "overflow": 0,
+            "prefix": ""
+        }
+    }
+}
+	{
+	    "properties": {
+	        "sort": {
+	            "type": "lowest to highest",
+	            "display": "Price: lowest to highest",
+	            "orderby": "msrp",
+	            "order": "asc"
+	        },
+	        "showbasemodelsonly": {
+	            "type": false
+	        },
+	        "year": {
+	            "type": [2018, 2017]
+	        },
+	        "msrp": {
+	            "type": "msrp",
+	            "min": 0,
+	            "max": 115000,
+	            "minstart": 0,
+	            "maxend": 120000,
+	            "output": " $0 - $115,000 ",
+	            "minpos": 0,
+	            "maxpos": 10,
+	            "leftvalue": 0,
+	            "rightvalue": 22.933333333333334,
+	            "overflow": 0,
+	            "prefix": ""
+	        }
+	    }
+	}
+	{
+	    "properties": {
+	        "sort": {
+	            "type": "lowest to highest",
+	            "display": "Price: lowest to highest",
+	            "orderby": "msrp",
+	            "order": "asc"
+	        },
+	        "showbasemodelsonly": {
+	            "type": false
+	        },
+	        "year": {
+	            "type": ["2018", "2016"]
+	        },
+	        "bodystyle": {
+	            "type": ["Cargo-van", "Convertible", "Hatchback"]
+	        },
+	        "make": {
+	            "type": ["Acura", "Audi", "BMW"]
+	        },
+	        "fueltype": {
+	            "type": ["Gas", "Diesel"]
+	        },
+	        "drivetrain": {
+	            "type": ["FWD", "4WD"]
+	        }
+	    }
+	}

@@ -1,0 +1,192 @@
+.drv {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #fff; }
+
+.header,
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.1px;
+  margin: 0; }
+
+.header {
+  height: 55px;
+  line-height: 55px; }
+
+.fixed-header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 0;
+  z-index: 9999; }
+  .fixed-header-container .sticky-header {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90px;
+    transition: transform 0.3s ease;
+    transform: translate3d(0, 0, 0); }
+  .fixed-header-container.down .sticky-header {
+    transform: translate3d(0, 100%, 0); }
+
+.nav .main-menu-item {
+  position: relative;
+  display: block;
+  float: left;
+  width: 160px;
+  height: 55px;
+  cursor: pointer;
+  border-right: 1px solid #333;
+  text-align: left; }
+  .nav .main-menu-item:first-child {
+    border-left: 1px solid #333; }
+  .nav .main-menu-item a, .nav .main-menu-item span {
+    display: block;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 15px; }
+    .nav .main-menu-item a:hover, .nav .main-menu-item span:hover {
+      color: #c93; }
+  .nav .main-menu-item .menu-item {
+    height: 55px; }
+    .nav .main-menu-item .menu-item span {
+      display: block;
+      float: left;
+      line-height: 55px; }
+    .nav .main-menu-item .menu-item .menu-arrow {
+      position: relative;
+      width: 10px;
+      height: 55px;
+      float: left; }
+    .nav .main-menu-item .menu-item .svg-icon {
+      width: 10px;
+      fill: #f93;
+      height: 100%;
+      margin-left: 5px; }
+  .nav .main-menu-item .sub-menu {
+    display: none;
+    background-color: #000;
+    border: 1px solid #333;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%; }
+    .nav .main-menu-item .sub-menu li {
+      height: 40px;
+      border-bottom: 1px solid #333;
+      position: relative; }
+      .nav .main-menu-item .sub-menu li a {
+        line-height: 1.1;
+        padding-right: 15px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        widows: 100%; }
+  .nav .main-menu-item.open .menu-arrow {
+    transform: rotateX(180deg); }
+
+.constrained {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0; }
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: 20px auto; }
+
+.content-left {
+  width: calc(100% - 320px);
+  height: 2000px;
+  float: left;
+  background-color: #333;
+  padding: 0 20px; }
+  .content-left .model-filter-container,
+  .content-left .filter-tag-container {
+    display: block;
+    background-color: #efefef;
+    min-height: 100px;
+    width: 100%;
+    display: block;
+    margin-top: 20px; }
+
+.content-right {
+  position: relative;
+  float: right;
+  width: 300px;
+  height: 2000px;
+  background-color: #fff; }
+  .content-right .sidebar {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #c93;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.3s linear; }
+    .content-right .sidebar span {
+      position: relative;
+      display: block;
+      color: #f00;
+      font-size: 32px;
+      text-align: center;
+      line-height: 1;
+      margin-top: 150px; }
+  .content-right .sidebar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0; }
+
+.drv .filter {
+  display: block;
+  clear: both;
+  margin: 10px 0; }
+
+.drv .compare-page .filter-set .filter .list-left div,
+.drv .compare-page .filter-set .filter .list-right div {
+  clear: both; }
+
+.drv .compare-page .filter-set {
+  overflow: visible;
+  width: 300px;
+  height: 40px;
+  transition: none;
+  transform: none; }
+
+.drv .compare-page .filter-set .advanced-filters {
+  overflow: visible; }
+
+.drv .compare-page .filter-set .advanced-filters > ul {
+  border: none;
+  margin-top: 0;
+  display: none; }
+  .drv .compare-page .filter-set .advanced-filters > ul li {
+    border-bottom: none; }
+
+/*# sourceMappingURL=main.css.map */
