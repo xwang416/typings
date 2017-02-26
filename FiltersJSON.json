@@ -45,7 +45,7 @@
             "minpos": 0,
             "maxpos": 57,
             "leftvalue": 0,
-            "rightvalue": 14.933333333333334,
+            "rightvalue": 15,
             "overflow": 0,
             "prefix": "hwy"
         },
@@ -75,7 +75,7 @@
             "output": " 4000 - 10000+ Lbs",
             "minpos": 83,
             "maxpos": 0,
-            "leftvalue": 3.6888888888888887,
+            "leftvalue": 3.7,
             "rightvalue": 10,
             "overflow": 0,
             "prefix": ""
@@ -89,7 +89,7 @@
             "output": " 240 - 600+ hp",
             "minpos": 68,
             "maxpos": 0,
-            "leftvalue": 9.066666666666666,
+            "leftvalue": 9,
             "rightvalue": 30,
             "overflow": 0,
             "prefix": ""
@@ -120,7 +120,7 @@
 	            "minpos": 0,
 	            "maxpos": 10,
 	            "leftvalue": 0,
-	            "rightvalue": 22.933333333333334,
+	            "rightvalue": 23,
 	            "overflow": 0,
 	            "prefix": ""
 	        }
